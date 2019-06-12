@@ -1,0 +1,11 @@
+-- create /etc/oraInst.loc point to valid location
+-- create  oraInventory directory, if not already exists.
+-- run runInstaller command from $ORACLE_HOMT/oui/bin location
+
+[orvcptst@dbdvadc162:/u01_vcptst/oracle/VCPTST1/12.1.0/oui/bin]
+[VCPTST1]-->./runInstaller -silent -attachHome ORACLE_HOME="/u01_vcptst/oracle/VCPTST1/12.1.0" ORACLE_HOME_NAME="OraDB_VCPTST1"
+Starting Oracle Universal Installer...
+
+Checking swap space: must be greater than 500 MB.   Actual 86016 MB    Passed
+The inventory pointer is located at /etc/oraInst.loc
+'AttachHome' was successful.
